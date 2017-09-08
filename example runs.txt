@@ -1,0 +1,55 @@
+Script started on Thu 29 Sep 2016 07:35:40 PM EDT
+]0;matt@matt-gerudo: ~/Documents/CS3013/project3matt@matt-gerudo:~/Documents/CS3013/project3$ ./graph err0[K1.txt 
+File format error: Each line must start with a single capital letter.
+]0;matt@matt-gerudo: ~/Documents/CS3013/project3matt@matt-gerudo:~/Documents/CS3013/project3$ ./graph err1.txt [1P[1@2
+File format error: The second argument on each line must be a number.
+]0;matt@matt-gerudo: ~/Documents/CS3013/project3matt@matt-gerudo:~/Documents/CS3013/project3$ ./graph err2.txt [1P[1@3
+File format error: The fourth and later arguments on each line must all be single capital letters.
+]0;matt@matt-gerudo: ~/Documents/CS3013/project3matt@matt-gerudo:~/Documents/CS3013/project3$ ./graph err3.txt [1P[1P[1P[1P[1@t[1@e[1@s[1@t[1@0
+Node A computed a value of 21 after 1 seconds.
+Total computation resulted in a value of 21 after 1 seconds.
+]0;matt@matt-gerudo: ~/Documents/CS3013/project3matt@matt-gerudo:~/Documents/CS3013/project3$ ./graph test0.txt [1P[1@1
+Node A computed a value of 1 after 1 seconds.
+Node C computed a value of 3 after 1 seconds.
+Node B computed a value of 2 after 1 seconds.
+Node D computed a value of 4 after 1 seconds.
+Total computation resulted in a value of 10 after 3 seconds.
+]0;matt@matt-gerudo: ~/Documents/CS3013/project3matt@matt-gerudo:~/Documents/CS3013/project3$ ./graph test1.txt [1P[1@2
+Node A computed a value of 1 after 1 seconds.
+Node C computed a value of 3 after 2 seconds.
+Node B computed a value of 2 after 2 seconds.
+Node E computed a value of 5 after 3 seconds.
+Node F computed a value of 6 after 3 seconds.
+Node D computed a value of 4 after 3 seconds.
+Node G computed a value of 7 after 4 seconds.
+Node H computed a value of 8 after 5 seconds.
+Total computation resulted in a value of 36 after 16 seconds.
+]0;matt@matt-gerudo: ~/Documents/CS3013/project3matt@matt-gerudo:~/Documents/CS3013/project3$ ./graph test2.txt [1P[1@3
+Node C computed a value of 1 after 1 seconds.
+Node B computed a value of 1 after 1 seconds.
+Node A computed a value of 1 after 1 seconds.
+Node D computed a value of 1 after 2 seconds.
+Node F computed a value of 1 after 3 seconds.
+Node G computed a value of 1 after 4 seconds.
+Node H computed a value of 1 after 4 seconds.
+Node E computed a value of 1 after 8 seconds.
+Node I computed a value of 1 after 5 seconds.
+Node J computed a value of 1 after 6 seconds.
+Node K computed a value of 1 after 7 seconds.
+Total computation resulted in a value of 11 after 28 seconds.
+]0;matt@matt-gerudo: ~/Documents/CS3013/project3matt@matt-gerudo:~/Documents/CS3013/project3$ ./graph prn[K[K[Krpn.[K1.txt 
+Node A computed a value of 1 after 1 seconds.
+Node C computed a value of 1 after 1 seconds.
+Node B computed a value of 31 after 1 seconds.
+Node D computed a value of 36 after 1 seconds.
+Total computation resulted in a value of 69 after 3 seconds.
+]0;matt@matt-gerudo: ~/Documents/CS3013/project3matt@matt-gerudo:~/Documents/CS3013/project3$ ./graph rpn1.txt [1P[1@2
+Node A computed a value of 3 after 1 seconds.
+Node B computed a value of 1 after 1 seconds.
+Node C computed a value of -2 after 1 seconds.
+Node D computed a value of 6 after 1 seconds.
+Total computation resulted in a value of 8 after 4 seconds.
+]0;matt@matt-gerudo: ~/Documents/CS3013/project3matt@matt-gerudo:~/Documents/CS3013/project3$ exit
+exit
+
+Script done on Thu 29 Sep 2016 07:37:49 PM EDT
